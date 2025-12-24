@@ -1,0 +1,63 @@
+ body {
+            margin: 0;
+            height: 100vh;
+            background: #1c8f73;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .wrapper {
+            text-align: center;
+        }
+
+        .title {
+            background: white;
+            padding: 10px 30px;
+            font-size: 28px;
+            font-weight: bold;
+            color: #1a3fa1;
+            margin-bottom: 20px;
+            margin-left: -25px;
+            width: 400px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px 40px;
+            border-radius: 4px;
+            width: 320px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .card h2 {
+            color: #1a3fa1;
+            margin-bottom: 20px;
+        }
+
+        .field {
+            text-align: left;
+            margin-bottom: 15px;
+        }
+
+        .field label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #444;
+        }
+
+        .field input {
+            width: 100%;
+            padding: 8px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        .result {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #0b6b57;
+        }
